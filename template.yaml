@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: "deployGrafana"
   title: "deployGrafanaInstance"
-  description: Create a website powered with Next.js
+  description: deployingGrafana
   tags:
     - recommended
     - react
