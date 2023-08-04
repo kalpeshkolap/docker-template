@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: "deployGrafana"
+  name: "Grafana"
   title: "deployGrafanaInstance"
   description: deployingGrafana
   tags:
