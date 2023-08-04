@@ -1,15 +1,15 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: "deployGrafana"
-  title: "deployGrafanaInstance"
-  description: Create a website powered with Next.js
+  name: "Grafana"
+  title: "grafana"
+  description: deploygrafana
   tags:
     - recommended
     - react
 spec:
-  owner: guest
-  type: service
+  owner: web@example.com
+  type: website
   parameters:
     - title: Provide some simple information
       required:
