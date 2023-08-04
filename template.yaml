@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: docker
-  title: docker Template
-  description: Create Dockerfile
+  name: react-ssr-template
+  title: React SSR Template
+  description: Create a website powered with Next.js
   tags:
     - recommended
-    - Docker
+    - react
 spec:
   owner: web@example.com
   type: website
