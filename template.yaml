@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: "Grafana"
-  title: "deployGrafanaInstance"
-  description: deployingGrafana
+  title: "GrafanaInstance"
+  description: Grafana
   tags:
     - recommended
     - react
