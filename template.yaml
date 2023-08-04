@@ -2,14 +2,14 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: "Grafana"
-  title: "GrafanaInstance"
-  description: Grafana
+  title: "grafana"
+  description: deploygrafana
   tags:
     - recommended
     - react
 spec:
-  owner: guest
-  type: service
+  owner: web@example.com
+  type: website
   parameters:
     - title: Provide some simple information
       required:
@@ -80,5 +80,3 @@ spec:
       - title: Open in catalog
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
-
-        
