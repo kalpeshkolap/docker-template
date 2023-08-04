@@ -1,14 +1,14 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Docker Template
-  title: Docker Template
-  description: Docker Template to deploy tomcat
+  name: docker
+  title: docker Template
+  description: Create Dockerfile
   tags:
-    - tomcat dockerfile
-    - test
+    - recommended
+    - Docker
 spec:
-  owner: https://github.com/kalpeshkolap
+  owner: web@example.com
   type: website
   parameters:
     - title: Provide some simple information
